@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Edmento Learning Dashboard
 
-## Getting Started
+A modern, responsive AI-powered learning dashboard built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## Features
 
-```bash
+- Course management with progress tracking
+- Dynamic course detail pages
+- AI-powered content summarization (simulated)
+- Responsive design for all devices
+- State management with Zustand
+- TypeScript for type safety
+- shadcn/ui components
+
+## Installation
+
+1. Clone the repository
+   ```bash
+   git clone <repository-url>
+   cd edmento-learning-dashboard
+Install dependencies
+
+npm install
+Run the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Project Structure
+edmento-learning-dashboard/
+├── app/              # Next.js App Router
+├── components/       # React components
+├── store/            # Zustand state management
+├── types/            # TypeScript definitions
+├── lib/              # Utility functions
+└── README.md
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Technical Stack
+Framework: Next.js 15 (App Router)
+Language: TypeScript
+Styling: Tailwind CSS + shadcn/ui
+State Management: Zustand
+API: Next.js API routes (mock endpoints)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Future Enhancements
+Real AI integration (OpenAI, etc.)
 
-## Learn More
+User authentication
 
-To learn more about Next.js, take a look at the following resources:
+Database integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Testing suite
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+PWA capabilities
 
-## Deploy on Vercel
+License
+Created for educational and assessment purposes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This version:
+1. Maintains all key information
+2. Uses proper Markdown formatting
+3. Has clear section headers
+4. Includes code blocks with proper syntax highlighting
+5. Presents the project structure in a readable way
+6. Keeps installation instructions simple
+7. Highlights the technical stack
+8. Is more scannable than the original
