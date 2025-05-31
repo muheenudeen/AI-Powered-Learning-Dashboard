@@ -73,7 +73,6 @@ export function DashboardHeader() {
                     </DropdownMenu>
                 </div>
             </div>
-
             <form onSubmit={handleSearch} className="md:hidden p-2 border-t">
                 <div className="relative w-full">
                     <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
