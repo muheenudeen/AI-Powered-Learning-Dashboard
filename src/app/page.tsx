@@ -33,6 +33,8 @@ export default function HomePage() {
 
       {/* Features Section */}
       <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <Link href="/courses">
+
         <Card className="text-center">
           <CardHeader>
             <BookOpen className="h-12 w-12 text-indigo-600 mx-auto" />
@@ -44,7 +46,7 @@ export default function HomePage() {
             </CardDescription>
           </CardContent>
         </Card>
-
+</Link>
         <Card className="text-center">
           <CardHeader>
             <TrendingUp className="h-12 w-12 text-green-600 mx-auto" />

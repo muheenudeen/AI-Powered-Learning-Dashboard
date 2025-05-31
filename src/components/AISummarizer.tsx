@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { LoadingSpinner } from "./ui/props/loading-spinner"
+import { LoadingSpinner } from "./props/loading-spinner"
 import { Sparkles } from "lucide-react"
 
 interface AISummarizerProps {

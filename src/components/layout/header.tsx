@@ -46,6 +46,7 @@ export function DashboardHeader() {
 
                 <div className="flex items-center gap-2">
                     <DropdownMenu>
+                        
                         <DropdownMenuTrigger asChild>
                             <Button variant="ghost" size="icon" className="relative">
                                 <Bell className="h-5 w-5" />
@@ -59,6 +60,8 @@ export function DashboardHeader() {
                     </DropdownMenu>
 
                     <DropdownMenu>
+                                    <Link href="/profile">
+
                         <DropdownMenuTrigger asChild>
                             <Button variant="ghost" size="sm" className="relative gap-2">
                                 <Avatar className="h-8 w-8">
@@ -66,6 +69,7 @@ export function DashboardHeader() {
                                 <span className="hidden md:inline-block">Alex Johnson</span>
                             </Button>
                         </DropdownMenuTrigger>
+                        </Link>
                     </DropdownMenu>
                 </div>
             </div>

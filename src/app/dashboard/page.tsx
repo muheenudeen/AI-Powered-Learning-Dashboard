@@ -1,8 +1,8 @@
 "use client"
 import { useEffect } from "react"
 import { CourseCard } from "@/components/course-card"
-import { LoadingSpinner } from "@/components/ui/props/loading-spinner"
-import { ErrorMessage } from "@/components/ui/props/error-message"
+import { LoadingSpinner } from "@/components/props/loading-spinner"
+import { ErrorMessage } from "@/components/props/error-message"
 import { useCourseStore } from "@/store/course-store"
 
 export default function DashboardPage() {
