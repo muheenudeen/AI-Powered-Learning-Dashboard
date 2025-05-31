@@ -63,7 +63,7 @@ export function DashboardHeader() {
                             <Button variant="ghost" size="sm" className="relative gap-2">
                                 <Avatar className="h-8 w-8">
                                     <img src="/avatharr.webp" alt="" />                                </Avatar>
-                                <span className="hidden md:inline-block">John Doe</span>
+                                <span className="hidden md:inline-block">Alex Johnson</span>
                             </Button>
                         </DropdownMenuTrigger>
                     </DropdownMenu>

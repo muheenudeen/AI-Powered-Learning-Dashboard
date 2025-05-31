@@ -1,8 +1,5 @@
 "use client"
-
 import { useEffect } from "react"
-
-
 import { CourseCard } from "@/components/course-card"
 import { LoadingSpinner } from "@/components/ui/props/loading-spinner"
 import { ErrorMessage } from "@/components/ui/props/error-message"

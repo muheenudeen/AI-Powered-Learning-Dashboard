@@ -40,7 +40,7 @@ export function DashboardSidebar(props: SidebarProps) {
             className="h-10 w-10 rounded-full object-cover border"
           />
           <div>
-            <p className="text-sm font-medium text-gray-900">John Doe</p>
+            <p className="text-sm font-medium text-gray-900">Alex Johnson</p>
             <p className="text-xs text-gray-500">Student</p>
           </div>
         </div>

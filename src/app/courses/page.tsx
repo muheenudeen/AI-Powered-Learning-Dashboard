@@ -1,10 +1,8 @@
 "use client"
-
 import { useEffect, useState } from "react"
 import { CourseCard } from "@/components/course-card"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-
 import { Card, CardContent } from "@/components/ui/card"
 import { useCourseStore } from "@/store/course-store"
 import { Search, BookOpen, Star, Clock } from "lucide-react"
@@ -39,7 +37,7 @@ export default function CoursesPage() {
   const categories = [...new Set(courses.map((c) => c.category))]
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 m-4">
       <h1 className="text-3xl font-bold">All Courses</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
